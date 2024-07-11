@@ -1,0 +1,50 @@
+{
+  "signupUsersList": [
+    {
+      "email": "bolu@gmail.com",
+      "password": "1234",
+      "id": "0192"
+    },
+    {
+      "id": "072f",
+      "email": "aditya",
+      "password": "123"
+    },
+    {
+      "id": "b2cb",
+      "email": "qw",
+      "password": "12"
+    }
+  ],
+  "registeredProductList": [
+    {
+      "category": "books",
+      "productName": "abc",
+      "price": "0192",
+      "tradeTye": "sell"
+    },
+    {
+      "id": "6207",
+      "category": "electronics",
+      "productName": "aditya",
+      "price": 12,
+      "tradetype": ""
+    },
+    {
+      "id": "9113",
+      "category": "books",
+      "productName": "Let us c",
+      "price": 23,
+      "tradetype": "",
+      "seller": "qw"
+    },
+    {
+      "id": "0f81",
+      "category": "furniture",
+      "productName": "Chair",
+      "price": 1234,
+      "tradeType": "rent",
+      "seller": "aditya"
+    }
+  ]
+}
