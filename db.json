@@ -18,19 +18,6 @@
   ],
   "registeredProductList": [
     {
-      "category": "books",
-      "productName": "abc",
-      "price": "0192",
-      "tradeTye": "sell"
-    },
-    {
-      "id": "6207",
-      "category": "electronics",
-      "productName": "aditya",
-      "price": 12,
-      "tradetype": ""
-    },
-    {
       "id": "9113",
       "category": "books",
       "productName": "Let us c",
@@ -45,6 +32,39 @@
       "price": 1234,
       "tradeType": "rent",
       "seller": "aditya"
+    }
+  ],
+  "tradeRecordList":[
+    {
+      "id": "6207",
+      "category": "electronics",
+      "productName": "aditya",
+      "price": 12,
+      "tradetype": "sell",
+      "seller": "qw",
+      "buyer": "aditya"
+    }
+  ],
+  "salesRecordList":[
+    {
+      "id": "6207",
+      "category": "electronics",
+      "productName": "aditya",
+      "price": 12,
+      "tradetype": "sell",
+      "seller": "qw",
+      "buyer": "aditya"
+    }
+  ],
+  "buyRecordList":[
+    {
+      "id": "6207",
+      "category": "electronics",
+      "productName": "aditya",
+      "price": 12,
+      "tradetype": "sell",
+      "seller": "qw",
+      "buyer": "aditya"
     }
   ]
 }
