@@ -1,0 +1,8 @@
+<mat-card>
+  <ngx-slick-carousel class="carousel" [config]="slideConfig">
+    <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+      <img [src]="slide.img" alt="Slide image" />
+    </div>
+  </ngx-slick-carousel>
+</mat-card>
+

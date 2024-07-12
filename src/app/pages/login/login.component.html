@@ -1,4 +1,4 @@
-<div>
+<!-- <div>
     <h1>Hi Welcome Back</h1>
      <h3>Login Here</h3>
       <form  [formGroup]="loginForm" (ngSubmit)="login()">
@@ -12,4 +12,37 @@
         <span>Don't have an account? 
         <a routerLink="/signUp">signUp</a></span>
       </form>
-  </div>
+  </div> -->
+
+<mat-card>
+  <mat-card-title><h2>Login Here</h2></mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="loginForm" (ngSubmit)="login()">
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email" required />
+      </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput formControlName="password" type="password" required />
+      </mat-form-field>
+
+      <div class="loginButton">
+        <button
+          class="loginButton"
+          mat-flat-button
+          style="
+            background-color: black;
+            border-radius: 8px;
+            margin: top;
+            text-align: center;
+            color: white;
+            padding: 10px;
+          "
+        >
+          Login
+        </button>
+      </div>
+    </form>
+  </mat-card-content></mat-card
+>

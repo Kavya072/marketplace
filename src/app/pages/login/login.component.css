@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+}
+mat-card {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+.loginButton {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 1rem;
+}

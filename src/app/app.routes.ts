@@ -8,11 +8,16 @@ import { ProductListingComponent } from './pages/product-listing/product-listing
 import { ProductsComponent } from './pages/products/products.component';
 
 export const routes: Routes = [
-    {path:'register', component: SignUpComponent},
-    {path:'login', component: LoginComponent},
-    {path:'home', component: HomeComponent},
-    {path:'dashboard', component: DashboardComponent, canActivate:[authGuard]},
-    {path:'register-product', component: ProductListingComponent},
-    {path: 'products', component: ProductsComponent}
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
+  { path: 'register', component: SignUpComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+    canActivate: [authGuard],
+  },
+  { path: 'register-product', component: ProductListingComponent },
+  { path: 'products', component: ProductsComponent },
 ];
