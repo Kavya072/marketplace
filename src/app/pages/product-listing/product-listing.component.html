@@ -1,24 +1,37 @@
-<div>
-    <h1>Register Product</h1>
-     <h3>Please add new Product Below</h3>
-       <form [formGroup]="productListForm" (ngSubmit)="productList()">
-         <div>
-           <label for="category">Category</label>
-           <select formControlName="category">
-            <option value="electronics">Electronics</option>
-            <option value="furniture">Furniture</option>
-            <option value="books">Books</option>
-           </select>
-           <label for="productName">Product Name</label>
-           <input formControlName="productName"  type="text">
-           <label for="price">Price</label>
-           <input formControlName="price"  type="number">
-           <label for="category">Category</label>
-           <select formControlName="tradeType">
-            <option value="sell">Sell</option>
-            <option value="rent">Rent</option>
-           </select>
-         </div>
-         <button>Register</button>
-       </form>
-   </div>
+<mat-card>
+  <mat-card-content>
+    <mat-card-title> Please add new Product Below</mat-card-title>
+    <form [formGroup]="productListForm" (ngSubmit)="productList()">
+      <mat-form-field>
+        <mat-label>Category</mat-label>
+        <mat-select formControlName="category">
+          @for (category of categories; track category) {
+          <mat-option [value]="category.value">{{
+            category.viewValue
+          }}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Title</mat-label>
+        <input
+          matInput
+          formControlName="productName"
+          placeholder="Sofa"
+          required
+        />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Price</mat-label>
+        <input matInput formControlName="price" type="number" />
+      </mat-form-field>
+      <mat-form-field class="example-full-width">
+        <mat-label>Description</mat-label>
+        <input matInput />
+      </mat-form-field>
+      <div class="btnDiv">
+        <button class="listbutton">List the product</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

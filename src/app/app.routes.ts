@@ -11,14 +11,19 @@ import { ProductSalesRecordComponent } from './pages/product-sales-record/produc
 import { ProductBuyRecordComponent } from './pages/product-buy-record/product-buy-record.component';
 
 export const routes: Routes = [
-    {path:'register', component: SignUpComponent},
-    {path:'login', component: LoginComponent},
-    {path:'home', component: HomeComponent},
-    {path:'dashboard', component: DashboardComponent, canActivate:[authGuard]},
-    {path:'register-product', component: ProductListingComponent},
-    {path: 'products', component: ProductsComponent},
-    {path: 'trade-list', component: ProductTradeComponent},
-    {path: 'trade-sales-list', component: ProductSalesRecordComponent},
-    {path: 'purchase', component:ProductBuyRecordComponent}
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
+  { path: 'register', component: SignUpComponent },
+  { path: 'login', component: LoginComponent },
+  { path: 'home', component: HomeComponent },
+  {
+    path: 'dashboard',
+    component: DashboardComponent,
+    canActivate: [authGuard],
+  },
+  { path: 'register-product', component: ProductListingComponent },
+  { path: 'products', component: ProductsComponent },
+  { path: 'trade-list', component: ProductTradeComponent },
+  { path: 'trade-sales-list', component: ProductSalesRecordComponent },
+  { path: 'purchase', component: ProductBuyRecordComponent },
 ];

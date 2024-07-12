@@ -8,26 +8,32 @@ import { Router, RouterModule } from '@angular/router';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MatToolbarModule, MatButtonModule, MatIconModule, CommonModule, RouterModule],
+  imports: [
+    MatToolbarModule,
+    MatButtonModule,
+    MatIconModule,
+    CommonModule,
+    RouterModule,
+  ],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrl: './header.component.css',
 })
-export class HeaderComponent implements DoCheck{
-  isMenuVisible=false;
+export class HeaderComponent implements DoCheck {
+  isMenuVisible = false;
   hasher = sessionStorage.getItem('username');
-  constructor(private route:Router){
-    let user=sessionStorage.getItem('username');
-    if(user){
+  constructor(private route: Router) {
+    let user = sessionStorage.getItem('username');
+    if (user) {
       this.isMenuVisible = true;
     }
   }
   ngDoCheck(): void {
     let currentroute = this.route.url;
-    let user=sessionStorage.getItem('username');
+    let user = sessionStorage.getItem('username');
     if (user) {
-      this.isMenuVisible = true
+      this.isMenuVisible = true;
     } else {
-      this.isMenuVisible = false
+      this.isMenuVisible = false;
     }
   }
 }

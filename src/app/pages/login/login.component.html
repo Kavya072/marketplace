@@ -1,15 +1,42 @@
-<div>
-    <h1>Hi Welcome Back</h1>
-     <h3>Login Here</h3>
-      <form  [formGroup]="loginForm" (ngSubmit)="login()">
-        <div>
-          <label for="email">Email</label>
-          <input formControlName="email"  required  type="email">
-          <label for="password">Password</label>
-          <input formControlName="password"  type="password">
+<div style="background-color: #d3d3d3; width: 100%; height: 100vh">
+  <mat-toolbar
+    color="primary"
+    class="header"
+    style="border: 5px solid rgb(255, 115, 0)"
+  >
+    <span>Hashers Marketplace</span>
+  </mat-toolbar>
+  <mat-card>
+    <mat-card-title><h2>Login Here</h2></mat-card-title>
+    <mat-card-content>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <mat-form-field appearance="fill">
+          <mat-label>Email</mat-label>
+          <input matInput formControlName="email" type="email" required />
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+          <mat-label>Password</mat-label>
+          <input matInput formControlName="password" type="password" required />
+        </mat-form-field>
+
+        <div class="loginButton">
+          <button
+            class="loginButton"
+            mat-flat-button
+            style="
+              background-color: black;
+              border-radius: 8px;
+              margin: top;
+              text-align: center;
+              color: white;
+              padding: 10px;
+            "
+          >
+            Login
+          </button>
         </div>
-        <button>Submit</button>
-        <span>Don't have an account? 
-        <a routerLink="/signUp">signUp</a></span>
+        <span>Don't have account?<a href="/register">Register</a></span>
       </form>
-  </div>
+    </mat-card-content></mat-card
+  >
+</div>
