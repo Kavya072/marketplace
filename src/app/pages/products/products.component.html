@@ -1,49 +1,17 @@
-<mat-card>
-    <mat-card-header>
-        <h2>Customer Listing</h2>
-       
-       
-    </mat-card-header>
-    <mat-card-content>
-        <div class="mat-elevation-z8">
-            <table mat-table matSort  [dataSource]="dataSource">
-          
-              <!-- Position Column -->
-              <ng-container matColumnDef="id">
-                <th mat-header-cell *matHeaderCellDef> Id </th>
-                <td mat-cell *matCellDef="let element"> {{element.id}} </td>
-              </ng-container>
-          
-              <!-- Name Column -->
-              <ng-container  matColumnDef="category">
-                <th mat-header-cell mat-sort-header *matHeaderCellDef> Category </th>
-                <td mat-cell *matCellDef="let element"> {{element.category}} </td>
-              </ng-container>
-          
-              <!-- Weight Column -->
-              <ng-container matColumnDef="productName">
-                <th mat-header-cell *matHeaderCellDef> Product Name </th>
-                <td mat-cell *matCellDef="let element"> {{element.productName}} </td>
-              </ng-container>
-          
-              <ng-container matColumnDef="action">
-                <th mat-header-cell *matHeaderCellDef> Action </th>
-                <td mat-cell *matCellDef="let element">  
-                    <button mat-raised-button color="primary">Edit</button>
-                    <button mat-raised-button color="accent">Delete</button>
-                </td>
-              </ng-container>
-          
-              <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-              <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-            </table>
-          
-            <mat-paginator [pageSizeOptions]="[5, 10, 20]"
-                           showFirstLastButtons
-                           aria-label="Select page of periodic elements">
-            </mat-paginator>
-          </div>
-    </mat-card-content>
-  </mat-card>
-
-
+<mat-card class="example-card" appearance="outlined" *ngFor="let obj of productList">
+  <mat-card-header>
+    <mat-card-title>{{obj.productName}}</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <p>{{obj.description}}</p>
+  </mat-card-content>
+  <mat-card-footer class="example-card-footer">
+    <mat-chip-set aria-label="Chihuahua traits">
+      <mat-chip>{{obj.category}}</mat-chip>
+      <mat-chip>Rs.{{obj.price}}</mat-chip>
+    </mat-chip-set>
+    <mat-card-actions class="button-buy">
+      <button mat-flat-button (click)="processRequestToBuy(obj.id)" >BUY</button>
+    </mat-card-actions> 
+  </mat-card-footer>
+</mat-card>

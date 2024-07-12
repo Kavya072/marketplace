@@ -1,0 +1,11 @@
+.example-card {
+    max-width: 300px;
+    float : left;
+    margin: 3%;
+  }
+  
+  .example-card-footer {
+    padding: 15px;
+  }
+  
+  

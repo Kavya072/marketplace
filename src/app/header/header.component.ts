@@ -14,6 +14,7 @@ import { Router, RouterModule } from '@angular/router';
 })
 export class HeaderComponent implements DoCheck{
   isMenuVisible=false;
+  hasher = sessionStorage.getItem('username');
   constructor(private route:Router){
     let user=sessionStorage.getItem('username');
     if(user){

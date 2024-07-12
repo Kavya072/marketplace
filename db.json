@@ -1,70 +1,56 @@
 {
   "signupUsersList": [
     {
-      "email": "bolu@gmail.com",
-      "password": "1234",
-      "id": "0192"
-    },
-    {
-      "id": "072f",
-      "email": "aditya",
+      "id": "a7aa",
+      "email": "kavya",
       "password": "123"
     },
     {
-      "id": "b2cb",
-      "email": "qw",
-      "password": "12"
+      "id": "96c5",
+      "email": "aditya",
+      "password": "123"
     }
   ],
-  "registeredProductList": [
+  "registeredProductList": [],
+  "tradeRecordList": [],
+  "salesRecordList": [
     {
-      "id": "9113",
-      "category": "books",
-      "productName": "Let us c",
-      "price": 23,
-      "tradetype": "",
-      "seller": "qw"
+      "id": "4496",
+      "category": "electronics",
+      "productName": "headphone",
+      "price": 1200,
+      "tradeType": "rent",
+      "seller": "kavya",
+      "buyer": "aditya"
     },
     {
-      "id": "0f81",
-      "category": "furniture",
-      "productName": "Chair",
-      "price": 1234,
+      "id": "cd50",
+      "category": "books",
+      "productName": "Java",
+      "price": 120,
+      "tradeType": "sell",
+      "seller": "aditya",
+      "buyer": "kavya"
+    }
+  ],
+  "buyRecordList": [
+    {
+      "id": "4496",
+      "category": "electronics",
+      "productName": "headphone",
+      "price": 1200,
       "tradeType": "rent",
-      "seller": "aditya"
-    }
-  ],
-  "tradeRecordList":[
-    {
-      "id": "6207",
-      "category": "electronics",
-      "productName": "aditya",
-      "price": 12,
-      "tradetype": "sell",
-      "seller": "qw",
+      "seller": "kavya",
       "buyer": "aditya"
-    }
-  ],
-  "salesRecordList":[
+    },
     {
-      "id": "6207",
-      "category": "electronics",
-      "productName": "aditya",
-      "price": 12,
-      "tradetype": "sell",
-      "seller": "qw",
-      "buyer": "aditya"
-    }
-  ],
-  "buyRecordList":[
-    {
-      "id": "6207",
-      "category": "electronics",
-      "productName": "aditya",
-      "price": 12,
-      "tradetype": "sell",
-      "seller": "qw",
-      "buyer": "aditya"
+      "id": "cd50",
+      "category": "books",
+      "productName": "Java",
+      "price": 120,
+      "tradeType": "sell",
+      "seller": "aditya",
+      "buyer": "kavya"
     }
   ]
 }

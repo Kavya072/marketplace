@@ -7,24 +7,24 @@ import { NgFor } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'app-product-buy-record',
+  selector: 'app-product-sales-record',
   standalone: true,
   imports: [MatCard, MatCardHeader, MatCardContent, MatCardModule, MatChipsModule, [NgFor], MatButtonModule],
-  templateUrl: './product-buy-record.component.html',
-  styleUrl: './product-buy-record.component.css'
+  templateUrl: './product-sales-record.component.html',
+  styleUrl: './product-sales-record.component.css'
 })
-export class ProductBuyRecordComponent {
+export class ProductSalesRecordComponent {
 
   constructor(private service: UserServiceService, private router: Router) {
     this.LoadTradeSalesProduct();
   }
 
-  productTradePurchaseList: any;
+  productTradeSalesList: any;
   userLoggedIn = sessionStorage.getItem('username');
 
   LoadTradeSalesProduct() {
-    this.service.GetAllProductTradeSalesBuyerList().subscribe((res: any) => {
-      this.productTradePurchaseList = res.filter((response: {buyer: any}) => response.buyer === this.userLoggedIn);
+    this.service.GetAllProductTradeSalesList().subscribe((res: any) => {
+      this.productTradeSalesList = res.filter((response: {seller: any}) => response.seller === this.userLoggedIn);
     });
   }
 
