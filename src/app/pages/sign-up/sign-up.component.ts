@@ -13,6 +13,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule, MatGridTile } from '@angular/material/grid-list';
 import { MatInputModule } from '@angular/material/input';
 import { CommonModule } from '@angular/common';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
   selector: 'app-sign-up',
@@ -26,6 +27,7 @@ import { CommonModule } from '@angular/common';
     MatGridListModule,
     MatInputModule,
     CommonModule,
+    MatToolbarModule
   ],
   templateUrl: './sign-up.component.html',
   styleUrl: './sign-up.component.css',

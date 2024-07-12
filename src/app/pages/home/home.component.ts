@@ -2,12 +2,11 @@ import { Component } from '@angular/core';
 import { MatToolbar } from '@angular/material/toolbar';
 import { Router } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { CarouselComponent } from '../../carousel/carousel.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatToolbar, CarouselComponent],
+  imports: [MatToolbar],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
 })

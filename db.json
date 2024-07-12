@@ -25,174 +25,7 @@
       "email": "acs",
       "password": "123"
     },
-    {
-      "id": "2228",
-      "name": "abc",
-      "contact": "222",
-      "employeeId": "13333",
-      "email": "123",
-      "password": "ddd"
-    },
-    {
-      "id": "78c4",
-      "name": "abc",
-      "contact": "",
-      "employeeId": "",
-      "email": "123",
-      "password": ""
-    },
-    {
-      "id": "fed6",
-      "name": "abc",
-      "contact": "",
-      "employeeId": "",
-      "email": "123",
-      "password": ""
-    },
-    {
-      "id": "9309",
-      "name": "abc",
-      "contact": "",
-      "employeeId": "",
-      "email": "123",
-      "password": ""
-    },
-    {
-      "id": "38b0",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "1234",
-      "password": ""
-    },
-    {
-      "id": "bb1b",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "5838",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "c4b7",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "eaab",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "abc",
-      "password": "123"
-    },
-    {
-      "id": "9991",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "a0c2",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "3d4b",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "7af8",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "5b86",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "25aa",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "d883",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "6fe2",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "dc14",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "043a",
-      "name": "Kavya Srivastava",
-      "contact": "7752883736",
-      "employeeId": "7852222",
-      "email": "abc@gmail.com",
-      "password": "123456"
-    },
-    {
-      "id": "9a7b",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "4307",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "abc",
-      "password": "123"
-    },
+
     {
       "id": "931b",
       "name": "hello",
@@ -201,94 +34,7 @@
       "email": "aaa",
       "password": "aaa"
     },
-    {
-      "id": "f14a",
-      "name": "ab",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "67f8",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "8b7b",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "451c",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "466b",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "f0d6",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "e25b",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "c8a8",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "fdb5",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "1355",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
-    {
-      "id": "359b",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "11",
-      "password": ""
-    },
+
     {
       "id": "a1e4",
       "name": "kavya",
@@ -369,54 +115,7 @@
       "email": "",
       "password": ""
     },
-    {
-      "id": "9856",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "2022",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "307e",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "3bfa",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "2b95",
-      "name": "kavya",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "c39c",
-      "name": "",
-      "contact": "",
-      "employeeId": "",
-      "email": "",
-      "password": ""
-    },
+
     {
       "id": "9fce",
       "name": "",
@@ -456,6 +155,30 @@
       "employeeId": "",
       "email": "",
       "password": ""
+    },
+    {
+      "id": "dd97",
+      "name": "",
+      "contact": "",
+      "employeeId": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "7ed2",
+      "name": "qwerty",
+      "contact": 12,
+      "employeeId": 13,
+      "email": "123",
+      "password": "123"
+    },
+    {
+      "id": "a9fe",
+      "name": "Kavya",
+      "contact": 222,
+      "employeeId": 333333,
+      "email": "srivastava@gmail.com",
+      "password": "123"
     }
   ],
   "registeredProductList": [
@@ -481,6 +204,14 @@
       "productName": "book",
       "price": 12,
       "tradeType": "rent",
+      "seller": "abc"
+    },
+    {
+      "id": "bcfe",
+      "category": "",
+      "productName": "",
+      "price": "",
+      "tradeType": "",
       "seller": "abc"
     }
   ],
